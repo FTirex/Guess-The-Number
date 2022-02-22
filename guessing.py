@@ -20,5 +20,5 @@ class player :      #Define Player Class
                 break
             
 
-player1 = player()
-player1.play()
+player1 = player()      #create an object named player1
+player1.play()          #we called play Function to our Player1  
