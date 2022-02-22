@@ -8,7 +8,7 @@ class player :      #Define Player Class
 
     def play (self): 
         key = random.randint(0,4)
-        print('Pc Choose :',key)
+        #print('Pc Choose :',key)
         for i in range(self.times):
             if (self.choice != key):
                 print("Sadge Your Are Wrong")
